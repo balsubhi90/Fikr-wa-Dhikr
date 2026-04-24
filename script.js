@@ -105,7 +105,7 @@ function handleAnswer(selected, correct) {
         buttons[selected].innerText = "❌ إجابة خاطئة";
 
         // 2. وضع إطار أخضر سميك حول الخيار الصحيح دون تغيير نصه
-        //buttons[correct].style.background = "#fff"; // خلفية بيضاء لبروز الإطار
+        buttons[correct].style.background = "#fff"; // خلفية بيضاء لبروز الإطار
         buttons[correct].style.color = "#27ae60"; // تغيير لون الخط للأخضر
         buttons[correct].style.border = "6px solid #2ecc71"; // إطار أخضر واضح جداً
         buttons[correct].style.boxShadow = "0 0 15px rgba(46, 204, 113, 0.5)"; // وهج بسيط
